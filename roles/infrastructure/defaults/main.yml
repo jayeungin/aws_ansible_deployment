@@ -27,7 +27,7 @@ infrastructure_architecture: x86_64
 infrastructure_ami_filter:
   architecture: "{{ infrastructure_architecture }}"
   owner-id: "309956199498"
-  name: "RHEL-9.2.*_HVM-*"
+  name: "RHEL-9.4.*_HVM-*"
 
 infrastructure_volumes:
   - device_name: /dev/sda1
